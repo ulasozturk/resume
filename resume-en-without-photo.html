@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ulaş Öztürk CV</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <!-- <img src="./photo.jpg" class="photo" /> -->
+        <div class="heading">
+          <div class="name">ULAŞ ÖZTÜRK</div>
+          <div class="title">Full Stack Developer</div>
+          <div class="information">
+            <div class="info email">
+              <img class="icon" src="./email.svg" />
+              <div class="text">ozulashe@gmail.com</div>
+            </div>
+            <div class="info phone">
+              <img class="icon" src="./phone.svg" />
+              <div class="text">505 106 41 75</div>
+            </div>
+            <div class="info">
+              <img class="icon" src="./github.svg" />
+              <div class="text">
+                <a href="https://github.com/ulasozturk">GitHub/ulasozturk</a>
+              </div>
+            </div>
+            <div class="info">
+              <img class="icon" src="./location.svg" />
+              <div class="text">Derince/KOCAELİ</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section objective">
+        <div class="header">Resume Objective</div>
+        <div class="container">
+          <div class="text">
+            My interest in the web, which started with the frontend, continued with the backend. I
+            started to be interested in mobile with React native. Full stack web development,
+            including mobile, is a field that I enjoy working in a lot. I want to work on jobs that
+            contain all or any part of this stack.
+          </div>
+          <div class="text">
+            My biggest motivation in the jobs I want to work in is to improve myself. I want to work
+            in jobs that will force me to learn new things and to solve problems. I want to use the
+            latest frameworks and libraries, apply new methods, new techniques.
+          </div>
+          <div class="text">
+            With this approach in my own projects, I always tried to learn and apply new things or
+            things I didn't know yet. If I need to open the stack that I most prefer to work with
+            and find very productive: browser frontend with React.js, mobile native frontend with
+            React-Native, rest api with Node.js, NoSQL database with MongoDB. I also prefer to use
+            structures built on this stack (Next.js, Nest.js, Expo). React is a must for me in
+            frontend. I am also interested in the backend other than Node.js (.Net, Golang, Python).
+            I prefer MongoDB because its document structure makes some work easier. I am also
+            interested in SQL databases.
+          </div>
+        </div>
+      </div>
+      <div class="section education">
+        <div class="header">Education</div>
+        <div class="container">
+          <div class="degrees">
+            <div class="degree">
+              <div class="name">University</div>
+              <div class="school">
+                <div class="name">Kocaeli University 2013-2022</div>
+                <div class="department">Computer Engineering Bachelor Degree</div>
+              </div>
+            </div>
+            <div class="breakline"></div>
+            <div class="degree">
+              <div class="name">High School</div>
+              <div class="school">
+                <div class="name">Cahit Elginkan Anadolu High School - Kocaeli</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section language">
+        <div class="header">Language Knowledge</div>
+        <div class="container">
+          <div class="lang">
+            <div class="name">English</div>
+            <div class="description">Sufficient for research and asynchronous communication.</div>
+          </div>
+        </div>
+      </div>
+      <div class="section experiences">
+        <div class="header">Work Experience</div>
+        <div class="container">
+          <div class="experience">
+            <div class="heading">
+              (Internship) Lean Technology - Frontend Developer - Starting: 07/2019 - End: 08/2019
+            </div>
+            <div class="description">
+              In this job, I developed frontend with React. I was involved in a project that has
+              just started. I built a few pages and a few components. I fixed many bugs. I have
+              given feedback. I have experienced working on the same project with more than one
+              person. I first experienced the conflicts in git commits here. I experienced
+              deployment with AWS.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section personal-projects">
+        <div class="header">Personal Projects</div>
+        <div class="container">
+          <div class="project">
+            <div class="name">Audio Book App</div>
+            <div class="description">
+              A mobile application that provides book listening service. I am the only software
+              developer on the project. In the project, the aim was to make an application that
+              includes all the features in similar applications, as well as features suitable for
+              our own needs. Audio stream and download are at the top of these features. HLS
+              protocol is used for streaming. The mobile application was developed with React
+              Native. Rest api was created with Node.js in the backend. A reverse-proxy server was
+              set up with Nginx. File transfers are provided with nginx because it is fast. React.js
+              and material-ui were used for the admin panel. A system with dual tokens (access and
+              refresh) was developed for authentication. API requests are made with the access token
+              created with JWT. Access token has a short expiry time. A new access token can be
+              obtained by using the refresh token, which is given when logged in and kept in the
+              database at the backend. Thanks to the Refresh token system, all sessions can be
+              managed (the system used by Google and others).
+            </div>
+          </div>
+          <div class="breakline"></div>
+          <div class="project">
+            <div class="name">Todo Lists App</div>
+            <div class="description">
+              An extended version of traditional todo apps. There is not just one todo list, there
+              are multiple todo lists. Each todo list has its own todo. So there is a layered CRUD.
+              The application can be used both by logging in as a user and as a guest user without
+              logging in. First, a flow was developed in which the data is kept in the client's
+              local database, considering that users may not want to log in and want to use the
+              application quickly. Secondly, a flow was developed where the data is kept in the
+              database on the server by logging in the users. The browser frontend was developed
+              with React.js. The system developed in the audiobook application for authentication
+              was also used in this project. The mobile native frontend was developed with
+              React-Native. The backend is developed with Node.js. The backend runs on a free Heroku
+              Dyno. Frontend runs on Vercel. The public repos of these projects can be seen on my
+              github profile. The web page is available at
+              <a href="https://todo-lists-web.vercel.app">https://todo-lists-web.vercel.app</a>. You
+              can find the mobile apk file at
+              <a href="https://github.com/ulasozturk/todo-lists-mobile/releases"
+                >https://github.com/ulasozturk/todo-lists-mobile/releases</a
+              >.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section school-projects">
+        <div class="header">School Projects</div>
+        <div class="container">
+          <ul class="list">
+            <li>Performing CRUD operations with a rest api and an android project.</li>
+            <li>
+              Performing CRUD operations on sql database with an mvc application made with Java.
+            </li>
+            <li>Developing a square puzzle game.</li>
+            <li>YUV (raw image data) decoder and a player app.</li>
+            <li>A project to find the inverse of a non-square matrix.</li>
+            <li>Solving the shortest path problem using the A* (heuristic) algorithm.</li>
+            <li>Solving the traveling salesman problem on the map of Turkey.</li>
+            <li>
+              Finding the unknown traffic density at an intersection with the Gauss-Jordan
+              elimination method.
+            </li>
+            <li>Solving the diamond problem (multiple inheritance) with Java.</li>
+            <li>
+              Making projects developed in Java that solve a problem I've made up for each of all
+              software design patterns.
+            </li>
+            <li>Making a vending machine's control panel with an embedded system.</li>
+            <li>Making an mvc project with Yii 2 php framework.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
